@@ -5,7 +5,7 @@ export const siteConfig = {
   description:"Beautifully designed components built with Radix UI and Tailwind CSS.",
   links: {
     twitter: "https://twitter.com/hlmkun",
-    github: "https://github.com/halimkun/ui",
+    github: "https://github.com/halimkun",
     docs: "https://halimkun.com",
   },
   mainNav: [
@@ -32,7 +32,7 @@ export const siteConfig = {
     {
       title: "Budget",
       alias: "B",
-      href: "/Beports",
+      href: "/budget",
     },
     {
       title: "Settings",
@@ -42,7 +42,7 @@ export const siteConfig = {
     {
       title: "About",
       alias: "A",
-      href: "/",
+      href: "/about",
     },
   ],
 }

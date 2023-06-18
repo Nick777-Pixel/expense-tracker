@@ -22,6 +22,14 @@ const nextConfig = {
 
       'zod': {
         transform: 'zod/{{member}}'
+      },
+
+      '@hookform/resolvers': {
+        transform: '@hookform/resolvers/{{member}}'
+      },
+
+      '@hookform' : {
+        transform: '@hookform/{{member}}'
       }
     }
   },
